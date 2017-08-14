@@ -1,0 +1,38 @@
+#intro{
+height: 100%;
+width: 100%;
+display: table;
+
+}
+
+#introwelcome{
+    position: absolute;
+    left: 30%;
+    top: 45%;
+
+    font-size: 80px;
+    text-align: center;
+   
+}
+
+
+#introwelcome{
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .10em;
+    animation: 
+      typing 2.8s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 40% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }

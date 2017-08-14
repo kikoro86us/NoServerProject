@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#greeting{
+    
+    height: 100vh;
+    width: 100%;
+    background-image: url("./../img/img4.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    opacity: 0;
+}
+
+
+
+
+#travel1{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./../img/img1.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#travel2{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./../img/asia.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#travel3{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./../img/img5.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#travel4{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./../img/img3.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#travel5{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./../img/img2.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: arial black;
+    font-size: 50px;
+    color:#F5F5F5;
+    margin: 0px;
+    padding-left:10%;
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    text-shadow: 4px 4px 2px  #1E1D1D;
+}
+
+
+
+
+
+
+
+#t1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 12% 0 5% 0%;
+}
+
+#tp{
+    color: #F5F5F5;
+    background-color: rgba(46, 41, 41, 0.68);
+    border-radius: 30px;
+    font-size: 2em;
+    font-family: arial;
+    text-shadow: 3px 3px 2px  #1E1D1D;
+    margin: 0 18% 0 18%;
+    padding: 2% 2% 2% 2%;
+}
+
+#t1{
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation: pulse 5s infinite; 
+    animation: pulse 5s infinite;
+    }
+    @-webkit-keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    }
+    @keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    }
+
+// .info{
+//     font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+//     font-weight:100; 
+//     background: rgba(0,0,0,0.3);
+//     color: white;
+//     padding: 2rem;
+//     width: 33%;
+//     margin:2rem;
+//     float: right;
+//     font-size: 1.2rem;
+// }
