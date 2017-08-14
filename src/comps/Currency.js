@@ -51,6 +51,8 @@ export default class Currency extends Component {
                         <div id='result' key={i}>{x}</div>
                     ))}</div>
 
+                {/* <Slider /> */}
+
             </div>
             {/* <p>
 AUD Australian dollar

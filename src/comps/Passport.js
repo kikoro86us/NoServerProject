@@ -40,6 +40,20 @@ import newzealand from "../img/passportrank/6 newzealand.png";
 
 
 export default class Passport extends Component {
+    // constructor(){
+    //     super();
+    //     this.state={
+    //         bool : true
+    //     }
+
+    // this.handleClick=this.handleClick.bind(this)
+    // }
+
+//     handleClick(){
+//             this.setState({bool:!this.state.bool})
+// }
+
+
     render() {
         return (
             <div>
@@ -49,12 +63,13 @@ export default class Passport extends Component {
 
                 <div>
                 <h1 id='passportrank'>Check your passport power!</h1>
+                {/* <button className='passportbt'>Flip them again</button> */}
                 </div>
 
                 <div className='one'>
 
                     <div>
-                    <img id='r1' width="200" height="289" src={germany}/>
+                    <img id='r1' className='r1' width="200" height="289" src={germany}/>
                     <div className="legend">Germany #1</div>
                     <div className="legend">Visa-free score : 158</div> 
                     </div>

@@ -11,6 +11,13 @@
    
 }
 
+.passportbt{
+    background-color: transparent;
+    color:white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
 .one{
     display: flex;
     justify-content: center;
@@ -24,12 +31,19 @@
 }
 
 .three{
+    max-width: 95vw;
+    overflow-x: auto;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     padding-bottom: 1%;
 }
 
 .four{
+    max-width: 95vw;
+    // width: 95vw;
+    overflow-x: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     padding-bottom: 1%;
@@ -51,7 +65,7 @@
 #passportrank{
     display: flex;
     justify-content: center;
-    padding: 8% 0 5% 0%;
+    padding: 5% 0 5% 0%;
 }
 
 .legend{
@@ -65,7 +79,88 @@
 }
 
 
+// .one img:active, .two img:active, .three img:active, .four img:active, .five img:active, .six img:active {
+#r1:active, #r2:active, #r3:active, #r4:active, #r5:active, #r6:active, #r7:active, #r8:active, #r9:active, #r10:active, #r11:active, #r12:active, #r13:active, #r14:active, #r15:active, #r16:active, #r17:active, #r18:active, #r19:active, #r20:active, #r21:active, #r22:active, #r23:active, #r24:active, #r25:active {
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    -webkit-animation-name: flipAgain;
+    animation-name: flipAgain;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-delay: 0s; 
+    -webkit-animation-delay: 0s; 
+    animation-fill-mode: both;
+    @-webkit-keyframes flipAgain {
+    0% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    }
+    40% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    }
+    50% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    }
+    80% {
+    -webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+    transform: perspective(400px) scale3d(.95, .95, .95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    }
+    100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    }
+    }
+    @keyframes flipAgain {
+    0% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    }
+    40% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    }
+    50% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    }
+    80% {
+    -webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+    transform: perspective(400px) scale3d(.95, .95, .95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    }
+    100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    }
+    } 
+}
+
+
+
 #r1{
+    
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
     -webkit-animation-name: flip;
