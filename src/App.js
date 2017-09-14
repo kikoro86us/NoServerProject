@@ -10,6 +10,8 @@ class App extends Component {
     return (
       <div className='appTotal'>
         {router}
+        <a href='http://localhost:3040/auth'><button>Log in</button></a>
+        <a href='http://localhost:3040/auth/logout'><button>Log out</button></a>
       </div>
     );
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import myVid from "./../vid/25.mp4";
+import myVid from "./../vid/25.webm";
 
 export default class IntroVideo extends Component {
     constructor(props) {

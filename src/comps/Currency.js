@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar'
-import Slider from './../comps/Slider'
 
 import {findCurrency} from './../utils/api'
 
@@ -93,3 +92,5 @@ EUR European euro
         );
     }
 }
+
+

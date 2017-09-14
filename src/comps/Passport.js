@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar'
-import Slider from './../comps/Slider'
 // import Footer from './Footer'
 
 import germany from "../img/passportrank/Germany 1.png";

@@ -66,7 +66,22 @@
     display: flex;
     justify-content: center;
     padding: 5% 0 5% 0%;
+    
 }
+
+// #passportrank:active{
+//     box-shadow: 0px 0px 150px #000000;
+//     z-index: 2;
+//     -webkit-transition: all 200ms ease-in;
+//     -webkit-transform: scale(2);
+//     -ms-transition: all 200ms ease-in;
+//     -ms-transform: scale(2);   
+//     -moz-transition: all 200ms ease-in;
+//     -moz-transform: scale(2);
+//     transition: all 200ms ease-in;
+//     transform: scale(2);
+// }
+
 
 .legend{
     width: 200;
@@ -79,7 +94,13 @@
 }
 
 
+
+
+
 // .one img:active, .two img:active, .three img:active, .four img:active, .five img:active, .six img:active {
+
+    // .one img:active, 
+
 #r1:active, #r2:active, #r3:active, #r4:active, #r5:active, #r6:active, #r7:active, #r8:active, #r9:active, #r10:active, #r11:active, #r12:active, #r13:active, #r14:active, #r15:active, #r16:active, #r17:active, #r18:active, #r19:active, #r20:active, #r21:active, #r22:active, #r23:active, #r24:active, #r25:active {
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
@@ -157,6 +178,17 @@
     } 
 }
 
+// box-shadow: 0px 0px 150px #000000;
+// z-index: 2;
+// -webkit-transition: all 200ms ease-in;
+// -webkit-transform: scale(2);
+// -ms-transition: all 200ms ease-in;
+// -ms-transform: scale(2);   
+// -moz-transition: all 200ms ease-in;
+// -moz-transform: scale(2);
+// transition: all 200ms ease-in;
+// transform: scale(2);
+// }
 
 
 #r1{

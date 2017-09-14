@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Navbar from './Navbar'
 import Footer from './Footer'
 import IntroVideo from './IntroVideo'
-import {DefaultPlayer as Video} from 'react-html5video'
-import Slider from './../comps/Slider'
 
 export default class Landing extends Component {
 
@@ -22,7 +20,6 @@ export default class Landing extends Component {
                     <p id='tp'>According to a joint study from the Global Commission on Aging and Transamerica Center for Retirement Studies, in partnership with the U.S. Travel Association, traveling actually keeps you healthier. The study found that women who vacation at least twice a year show a significantly lower risk of suffering a heart attack than those who only travel every six years or so.
                     The same is true for men. Men who do not take an annual vacation show a 20 percent higher risk of death and 30 percent greater risk of heart disease.</p>
                     </div>
-
                 </div>
                 
                 <div id='travel2'>
@@ -56,10 +53,6 @@ export default class Landing extends Component {
                     A study from the Marshfield Clinic in Wisconsin found that women who vacation at least twice a year are less likely to suffer from depression and chronic stress than women who vacation less than once every two years.</p>
                     </div>
                 </div>
-
-
-
-
             </div>
         );
     }
